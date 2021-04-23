@@ -19,10 +19,10 @@ const Recipes = () => {
 
   return (
     <div>
-      <h3>Current Recipe:</h3>
-      <button onClick={() => setRecipe(elvenShieldRecipe)}>Elven Shield</button>
+      <h3>目前裝備</h3>
+      <button onClick={() => setRecipe(elvenShieldRecipe)}>精靈盾</button>
       <button onClick={() => setRecipe(elvenGauntletsRecipe)}>
-        Elven Gauntlets
+        精靈護手
       </button>
 
       <ul>
